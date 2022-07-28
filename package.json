@@ -1,7 +1,7 @@
 {
-  "name": "node-cron-cli",
-  "version": "1.0.0",
-  "description": "A cron daemon CLI leveraging node-cron",
+  "name": "node-cron-daemon",
+  "version": "1.0.1",
+  "description": "A node.js based cron daemon CLI that is leveraging node-cron",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

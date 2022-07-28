@@ -9,8 +9,8 @@ const packageJson = require('./package.json');
 
 async function spawn(command) {
     const { stdout, stderr } = await exec(command);
-    console.log(stdout);
-    console.error(stderr);
+    !!stdout && console.log(stdout);
+    !!stderr && console.log(stderr);
 }
 
 const args = process.argv.slice(2);

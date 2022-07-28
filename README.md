@@ -1,5 +1,5 @@
 # crond
-A cron daemon CLI leveraging node-cron module to schedule the task. 
+A node.js based cron daemon CLI that is leveraging node-cron module to schedule the task. 
 
 ## Prerequisite
 
@@ -10,7 +10,7 @@ Make sure you have [node.js](https://nodejs.org/) installed at your system.
 You can install the app via npm
 
 ```
-$ npm install node-cron-cli
+$ npm install node-cron-daemon
 ```
 
 After installation, check the app accessibility
