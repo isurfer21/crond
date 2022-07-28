@@ -1,0 +1,28 @@
+{
+  "name": "node-cron-cli",
+  "version": "1.0.0",
+  "description": "A cron daemon CLI leveraging node-cron",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurfer21/crond.git"
+  },
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isurfer21/crond/issues"
+  },
+  "homepage": "https://github.com/isurfer21/crond#readme",
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "node-cron": "^3.0.1",
+    "uuid": "^8.3.2"
+  },
+  "bin": {
+    "crond": "index.js"
+  }
+}
